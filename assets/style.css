@@ -1,0 +1,118 @@
+nav {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: rgba(49, 39, 39, 0.575);
+    
+}
+
+.list-item {
+    list-style-type: none;
+}
+.nav-items{
+    display: flex;
+    gap: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+background-image: url(../assets/images/offer2.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+
+.input-section {
+    justify-content: center;
+    position: relative;
+    top: 25%;
+    margin-left: 27%;
+    margin-right: 20%;
+    background-color: rgba(0, 0, 0, 0.527);
+}
+
+.input-section p {
+    margin-left:14%;
+    font-size: 30px;
+    color: white;
+}
+
+.input-section h1 {
+    color: white;
+    font-size: 40px;
+}
+
+.input-section button {
+    margin-left: 38%;
+    padding: 15px;
+    font-size: large;
+    background-color: rgba(204, 19, 28, 0.959);
+    color: white;
+
+}
+
+#nav-name {
+    font-size: 30px;
+}
+
+
+.welcome-container {
+    display: flex;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 7%;
+    background-color: rgba(255, 255, 255, 0.555);
+}
+
+.image-container {
+    width: 0%;
+    margin-right: 10%;
+    margin-right: 20%;
+}
+
+.welcome-content {
+    width: 40%;
+    margin-left: 6%;
+    margin-right: 10%;
+}
+
+.welcome-content p {
+    line-height: 1.5;
+    font-style: normal;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.welcome-content h1 {
+    font-size: 60px;
+    margin-bottom: 5%;
+    color: rgba(0, 0, 0, 0.719);
+    margin-top: 0%;
+
+}
+
+.welcome-content button {
+    padding: 15px;
+}
+
+.welcome-content a {
+    text-decoration: none;
+    font-size: medium;
+    color: rgba(0, 0, 0, 0.425);
+}
+
+.menu-flex {
+    display: flex;
+}
+
+.menu-item img {
+    width: 330px;
+    height: 219.44px;
+}
