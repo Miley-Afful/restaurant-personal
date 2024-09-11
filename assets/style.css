@@ -5,6 +5,10 @@ nav {
     align-items: center;
     padding: 30px;
     background-color: rgba(49, 39, 39, 0.575);
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    right: 0%;
     
 }
 
@@ -22,16 +26,18 @@ nav a {
 }
 
 header {
-background-image: url(../assets/images/offer2.png);
+background-image: url(../assets/images/fishbak.png);
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
+background-position: center;
+background-size: cover;
 }
 
 .input-section {
     justify-content: center;
     position: relative;
-    top: 25%;
+    top: 45%;
     margin-left: 27%;
     margin-right: 20%;
     background-color: rgba(0, 0, 0, 0.527);
@@ -52,8 +58,9 @@ height: 100vh;
     margin-left: 38%;
     padding: 15px;
     font-size: large;
-    background-color: rgba(204, 19, 28, 0.959);
+    background-color: rgba(105, 9, 13, 0.877);
     color: white;
+    border-radius: 20%;
 
 }
 
@@ -69,6 +76,16 @@ height: 100vh;
     margin-right: 10px;
     margin-top: 7%;
     background-color: rgba(255, 255, 255, 0.555);
+}
+
+.welcome-section {
+    background-color: rgba(240, 248, 255, 0.781);
+}
+
+.welcome-container img {
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+
 }
 
 .image-container {
@@ -108,11 +125,62 @@ height: 100vh;
     color: rgba(0, 0, 0, 0.425);
 }
 
+.main-menu {
+    margin-top: 7%;
+}
+
 .menu-flex {
     display: flex;
+}
+
+.menu-item {
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    background-color: rgba(124, 104, 238, 0.075);
 }
 
 .menu-item img {
     width: 330px;
     height: 219.44px;
+    border-radius: 30%;
+    margin-top: 7%;
+}
+
+.menu-item h4 {
+    font-size: 25px;
+    font-style: italic;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+.menu-item h2 {
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+
+.main-menu h1 {
+text-align: center;
+font-size: 50px;
+color: rgba(0, 0, 0, 0.788);
+}
+
+.menu-item p {
+    text-align: justify;
+    width: 45%;
+    margin-left: 30%;
+    
+}
+
+.menu-item button {
+    padding: 10px;
+    /* width: 10%; */
+    font-size: 20px;
+    border-radius: 45%;
+    background-color: rgba(66, 60, 58, 0.685);
+}
+.menu-item a {
+    text-decoration: none;
+    color: rgba(92, 70, 70, 0.979);
 }
