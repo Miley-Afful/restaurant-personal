@@ -17,36 +17,45 @@ nav {
 }
 .nav-items{
     display: flex;
-    gap: 40px;
+    gap: 30px;
 }
 
 nav a {
     text-decoration: none;
     color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
 }
 
 header {
-background-image: url(../assets/images/fishbak.png);
-background-repeat: no-repeat;
-background-size: cover;
+background-color: rgba(137, 43, 226, 0.226);
+background-size: contain;
 height: 100vh;
-background-position: center;
-background-size: cover;
 }
 
 .input-section {
-    justify-content: center;
-    position: relative;
-    top: 45%;
-    margin-left: 27%;
-    margin-right: 20%;
-    background-color: rgba(0, 0, 0, 0.527);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-content {
+    width: 40px;
+    margin-left: 10%;
+    /* margin-right: 50%; */
+}
+
+.input-image {
+padding: 10%;
+width: 30%;
 }
 
 .input-section p {
-    margin-left:14%;
+    margin-left: 10%;
     font-size: 30px;
     color: white;
+    margin-right: 10%;
+
 }
 
 .input-section h1 {
@@ -55,7 +64,7 @@ background-size: cover;
 }
 
 .input-section button {
-    margin-left: 38%;
+    /* margin-left: 38%; */
     padding: 15px;
     font-size: large;
     background-color: rgba(105, 9, 13, 0.877);
